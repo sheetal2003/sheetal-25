@@ -1,0 +1,64 @@
+/*import fonts from font.css file */
+ @import url(./fonts.css);
+
+/*css variables*/
+
+@import url(./partials/variables.css);
+
+/*-----------------------------------start navigation*/
+
+.header_area .main-menu .navbar .navbar-brand{
+     padding: 0.2rem 0.5rem;
+ }
+.header-area .main-menu .navbar{
+     padding: 1rem 20rem;
+ }
+.header_area .main-menu .nav-item .nav-link a{
+font-family:var(--roboto);
+text-transform:uppercase;
+font-weight: 500;
+padding: 1.7rem;
+color:var(--title-color);
+}
+.header_area .main-menu .navbar-nav .active a{
+    background:var(--gradient-color);
+   -webkit-background-clip:text;
+   -webkit-text-fill-color: transparent;
+   background-clip:text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background:var(--gradient-color);
+   -webkit-background-clip:text;
+   -webkit-text-fill-color: transparent;
+   background-clip:text;
+
+
+/*-------------------------------------------------end navigation */
+
+
+
+/*banner area*/
+.site-main .site-banner{
+    background:url(../img/om.png)no-repeat 0% 50%
+}
+.site-main.site-banner.site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+    }
+.site-main .site-banner .site-title h3::after{
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background-color: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: :translate(-10px);
+}
+
+
+/*end banner area */
+
+.footer-area .col-lg-12 a i{
+    font-size: 30px;
+}
